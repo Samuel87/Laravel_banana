@@ -1,0 +1,168 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.checkbox label {
+	font-size: $font-smallest;
+}
+.logo-container {
+	width: 120px;
+}
+.form_field,
+.form-control {
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.dropdown-login {
+	min-width: 280px;
+	padding: 15px 20px 0 20px;
+}
+
+.btn-secondary {
+	margin-top: 15px !important;
+	color: #333333;
+	background-color: #fff;
+	border-color: #333333;
+	a {
+		&.hover,
+		&.focus {
+			color: $brand-primary !important;
+		}
+	}
+}
+
+.btn-newsletter {
+	background-color: #fff;
+	margin: 15px auto;
+	border: 1px solid $brand-primary;
+}
+
+.btn-secondary:hover,
+.btn-newsletter:hover {
+	background-color: $brand-secondary-hover;
+	color: $brand-primary;
+}
+
+.small-label {
+	font-size: $font-size-menutext;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.js-show-newsletter {
+	&.hover {
+		cursor: pointer;
+	}
+}
+.footer {
+	background-color: #fff;
+	color: white;
+	color: $footer-font-color;
+	padding-bottom: 50px;
+
+	h3 {
+		color: $brand-primary;
+		font-size: $navbar-font-size;
+		font-weight: 600;
+		text-align: center;
+		padding: 40px 0 10px 0;
+		text-transform: uppercase;
+	}
+	ul {
+		font-size: $navbar-font-size;
+		list-style-type: none;
+		padding-left: 0;
+		color: $footer-font-color;
+	}
+
+	a {
+		color: $footer-font-color;
+		padding: 0 0 5px 0;
+		cursor: pointer;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	button {
+		color: $brand-primary;
+		@media(min-width: 768px) {
+			width: auto;
+		}
+	}
+	.form_field {
+		text-align:center;
+		border: none;
+		border-bottom: 1px solid $brand-primary;
+	}
+}
+
+.form-thank-you {
+	color: $footer-font-color;
+	font-weight: 600;
+}
+.form-success {
+	color: $brand-primary;
+}
+.fa {
+	font-size: 45px !important;
+	color: $footer-font-color;
+	padding-top: 65px;
+	&:hover {
+	}
+}
+
+.products-menu {
+	&.open {
+		position: static;
+		.dropdown-menu {
+			display: block;
+			width: 100%;
+			border: none;
+		}
+	}
+	> li { display: block; }
+	li a { font-size: $font-smallest; }
+	.dropdown-menu {
+		padding: 30px 0;
+		ul { list-style-type: none; }
+	}
+}
+.contact-form {
+	padding: 30px 0;
+}
+.sidebar-nav {
+	@media(min-width: 768px) {
+		margin-top: -13px;
+    }
+	li {
+		&.hover {
+			color: $brand-secondary-hover;
+		}
+	}
+
+	.dropdown-menu {
+		border: none;
+		box-shadow: none;
+		position: static;
+		float: none;
+		padding: 15px 0;
+		> li > a {
+    		padding: 3px 0px;
+    	}
+	}
+    .navbar-collapse {
+		padding-right: 0;
+		padding-left: 0;
+    }
+    .nav > li > a {
+    	padding: 3px 0px;
+    }
+}

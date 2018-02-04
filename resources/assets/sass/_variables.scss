@@ -1,0 +1,51 @@
+
+// Body
+$body-bg: #fff;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+//851f82 purple
+//ff0000 red
+//222222 black
+$brand-primary: #222222;
+$brand-secondary: #222222;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+$brand-secondary-hover: #f2f2f2;
+$footer-font-color: $brand-primary;
+$footer-font-color-hover: #851f82;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-size-base: 16px;
+$font-size-menutext: 16px !default;
+$navbar-font-size: 16px;
+$font-smallest: 14px;
+$font-menu-icons: 18px;
+$line-height-base: 1.6;
+$text-color: $brand-primary;
+$link-color: #ff0000;
+
+// Navbar
+$navbar-default-bg: #fff;
+$navbar-font-size: 16px;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
